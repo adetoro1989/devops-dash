@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #1e293b;
+  border-bottom: 2px solid #38bdf8;
+}
+
+header h1 {
+  margin: 0;
+  color: #38bdf8;
+}
+
+.subtitle {
+  color: #94a3b8;
+}
+
+/* Main Sections */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 2rem;
+  background: #1e293b;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+h2 {
+  color: #38bdf8;
+  border-bottom: 1px solid #38bdf8;
+  padding-bottom: 0.5rem;
+}
+
+/* Pipeline stages */
+.stages {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.stage {
+  flex: 1;
+  background: #334155;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.stage:hover {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+/* Stats */
+.stats ul {
+  list-style: none;
+  padding: 0;
+}
+
+.stats li {
+  margin: 0.4rem 0;
+}
+
+.success {
+  color: #22c55e;
+}
+
+/* Contact */
+button {
+  background: #38bdf8;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  color: #0f172a;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1e293b;
+  color: #94a3b8;
+}
