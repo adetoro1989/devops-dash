@@ -12,6 +12,10 @@ It includes example pipeline stages (Source → Build → Test → Deploy), proj
 
 You can customize it with your own CI/CD data, integrate build status badges, or connect it to APIs from Jenkins, GitHub Actions, or Kubernetes.
 
+I used a Dockerfile to package the application into a container and used docker commands to launch the container {docker run -dit -p 8500:8500 with the image name}
+
+I used kubectl to orchestrate using kubernetes
+
 ---
 
 ## 📁 Folder Structure
